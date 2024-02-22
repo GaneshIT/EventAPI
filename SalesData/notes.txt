@@ -1,0 +1,13 @@
+﻿Database First approach model steps:
+
+1. create database and tables
+2. create EntityLayer project
+3.  execute the below command from package manager console
+
+
+Command:	
+	Scaffold-DbContext -Connection "Server=IN3TADW03036YLV\MSSQLSERVERUSER;Database=Northwind;Integrated Security=True;TrustServerCertificate=True;" -Provider "Microsoft.EntityFrameworkCore.SqlServer" -DataAnnotations
+
+
+
+	Note: Server name should be your servername.
